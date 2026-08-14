@@ -98,7 +98,7 @@ Monitoring Started
 Time: Fri 14 Aug 08:45:31 UTC 2026
 ##################################################################
 Checking Load Average
- 08:45:31 up  1:01,  3 users,  load average: 0.28, 0.09, 0.03
+ 08:45:31 up 1:01, 3 users, load average: 0.28, 0.09, 0.03
 ##################################################################
 Checking CPU Usage
 100%
@@ -114,7 +114,7 @@ System have free disk space
 ##################################################################
 Top 5 CPU consuming processes
     PID COMMAND         %CPU
-   2483 ps               100
+   2483 ps              100
    1458 sshd             1.0
    2361 fwupd            0.9
     779 containerd       0.8
@@ -126,12 +126,7 @@ Execution Completed. Checking again in 05 seconds...
 
 Sample alert.log entry when threshold is crossed:
 
-Fri  7 Aug 08:54:01 UTC 2026 : Cpu usage is high
-Sat  8 Aug 14:03:50 UTC 2026 : Cpu usage is high
 Fri 14 Aug 08:12:28 UTC 2026 : Cpu usage is high
-Fri 14 Aug 08:12:38 UTC 2026 : Cpu usage is high
-Fri 14 Aug 08:12:44 UTC 2026 : Cpu usage is high
-Fri 14 Aug 08:12:49 UTC 2026 : Cpu usage is high
 Fri 14 Aug 08:45:32 UTC 2026 : Cpu usage is high
 
 
