@@ -69,6 +69,13 @@ echo "##################################################################"
 echo "##################################################################"
 
 
+	echo "Top 5 CPU consuming processes"
+	ps -eo pid,comm,%cpu --sort=-%cpu | head -6
+
+
+echo "##################################################################"
+
+
 	echo "Execution Completed. Checking again in 05 seconds..."
 	sleep 5
 done
