@@ -94,40 +94,15 @@ kill <PID>
 
 ## Sample Output
 
-Monitoring Started
-Time: Fri 14 Aug 08:45:31 UTC 2026
-##################################################################
-Checking Load Average
- 08:45:31 up 1:01, 3 users, load average: 0.28, 0.09, 0.03
-##################################################################
-Checking CPU Usage
-100%
-Cpu usage is high
-##################################################################
-Check RAM & Swap
-20%
-Having free memory space
-##################################################################
-Check Disk Space
-used disk space = 36%
-System have free disk space
-##################################################################
-Top 5 CPU consuming processes
-    PID COMMAND         %CPU
-   2483 ps              100
-   1458 sshd             1.0
-   2361 fwupd            0.9
-    779 containerd       0.8
-   2430 system_monitor.  0.5
-##################################################################
-Execution Completed. Checking again in 05 seconds...
+<img width="365" height="271" alt="image" src="https://github.com/user-attachments/assets/1aac6ae6-12ae-47df-bde4-62efa79394a7" />
+
 
 
 
 Sample alert.log entry when threshold is crossed:
 
-Fri 14 Aug 08:12:28 UTC 2026 : Cpu usage is high
-Fri 14 Aug 08:45:32 UTC 2026 : Cpu usage is high
+<img width="274" height="70" alt="image" src="https://github.com/user-attachments/assets/8a1661a0-71ef-47ea-8b2c-712c6d893f57" />
+
 
 
 ## Files
