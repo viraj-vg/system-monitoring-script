@@ -89,5 +89,3 @@ v1.1 - added while loop for continuous monitoring instead of using watch command
 
 v1.0 - first version, basic one time check for cpu/mem/disk
 
-## Author
-june2026
